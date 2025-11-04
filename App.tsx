@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SearchPanel } from './components/SearchPanel';
+import SearchPanel from "./components/SearchPanel.tsx";
 import { ResultsDashboard } from './components/ResultsDashboard';
 import { AiArticleStudio } from './components/AiArticleStudio';
 import { analyzeKeyword, generateArticle } from './services/geminiService';
